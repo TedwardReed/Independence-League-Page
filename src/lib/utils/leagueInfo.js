@@ -7,11 +7,10 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2014, the Legends League began as keeper league amongst a small group of friends. In 2019, the league converted into a full-fledged dynasty league. Each year, the managers compete to win the Legends Cup and avoid the <i>ever-humiliating</i> Tammy Bowl.</p>
-  <p>Some managers built immediate win-now teams, while others began the slow process of building a juggernaut dynasty team. A portion of the league prioritized youth and draft picks, the rest gravitated towards the steadfast value of veterans. While some managers fled from injuries and down years, others bought the dip and built for the future.</p>
-  <p>In astounding commitment to building a dynasty franchise, many of the managers have begun to have kids and groom the next generation of managers to take over their teams. The mini managers are being heavily indoctrinated into the fantasy lifestyle and will be expected to take an active role as soon as they can succesfully type out a coherent trade offer.</p>
-  <p>In contrast to the addition of the mini managers, some managers have also left but, despite that, the league has only gotten stronger. With more passionate managers, the competition has become more intense and more difficult each year.</p>
-  <p>While the ultimate prize is bragging rights and sending obnoxious texts to the rest of the league for the next year, the champion manager also walks away with $800 and the last place manager ships the Legends Cup to the new champion.</p>
+  <p>Founded in 2024, the Independence League began as Re-Draft league started by two buds amongst a small group of each of their friends and family members. Each year, the managers compete to win the Independence Cup and avoid the <i>ever-humiliating</i> Toilet Bowl.</p>
+  <p>In astounding commitment to building a fantasy franchise, the Independence league has always had at least one new team in the league each season. Some are even fantasy rookies who suprise the entire league with their debut season.</p>
+  <p>In contrast to the addition of new managers, some managers have also left but, despite that, the league has only gotten stronger. With more passionate managers, the competition has become more intense and more difficult each year.</p>
+  <p>While the ultimate prize is bragging rights and sending obnoxious texts to the rest of the league for the next year, the champion manager also walks away with $250 and the last place manager ships or hands over the Independence Cup to the new champion.</p>
 `;
 
 /*   STEP 3   */
