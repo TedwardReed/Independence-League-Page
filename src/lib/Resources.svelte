@@ -5,26 +5,25 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
-            name: "FTN Fantasy",
-            url: "https://www.ftnfantasy.com/nfl",
+            name: "League Legacy",
+            url: "https://leaguelegacy.io/leagues/independence/",
             icon: "insights",
-            premium: true,
+            premium: false,
             separator: true,
         },
         {
-            name: "The Fantasy Footballers",
-            url: "https://www.thefantasyfootballers.com/",
-            icon: "podcasts",
-            premium: true,
-            separator: true,
-        },
-        {
-            name: "FantasyPros Dynasty Trade Value Chart",
-            url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
+            name: "Sleeper Clash",
+            url: "https://www.sleeperclash.com/1257829197557006336/",
             icon: "assessment",
             premium: false,
             separator: true,
-            dynastyOnly: true,
+        },
+        {
+            name: "Discord Server",
+            url: "https://discord.gg/f57ma9PqHb",
+            icon: "podcasts",
+            premium: false,
+            separator: true,
         },
         {
             name: "DynastyProcess Trade Calculator",
