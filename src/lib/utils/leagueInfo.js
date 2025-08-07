@@ -23,28 +23,29 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-  {
-    "managerID": "466808847713955840",
-    "name": "Andrew Shapiro",
-    "location": "Brooklyn",
-    "bio": "I joined the league last year.  I went to high school and college with nick and we were roommates for 3 years.  I have 2 kids both boys one is almost 3 and the other is 6 months.  I love to trade.\nMy favorite teams are: 1) my fantasy team 2) I was a jets fan but dumped them for the dolphins last year",
-    "photo": "/managers/andrew.jpg",
-    "fantasyStart": 2010,
-    "favoriteTeam": "mia",
-    "mode": "Win Now",
-    "rival": {
-      name: "Clayton",
-      link: 6,
-      image: "/managers/clayton.jpg"
+   {
+      "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1134256122057535488",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Edward (Teddy) Reed",
+      "tookOver": NULL, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Ashburn", // (optional)
+      "bio": "Teddy started the league in 2024 with his friend billy. Since then he has made it to his first playoffs and has no plans of slowing down this year with goals to make it to the championship.",
+      "photo": "/managers/Edward.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "James", // Can be anything (usually your rival's name)
+        link: 2, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Kentarou.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 4314, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Set Your Lineup, Pray For Greatness", // (optional)
+      "tradingScale": 7, // 1 - 10 (optional)
+      "preferredContact": "Discord",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-    "favoritePlayer": 2449,
-    "valuePosition": "WR",
-    "rookieOrVets": "Rookies",
-    "philosophy": "Next man up.",
-    "tradingScale": 10,
-    "contactMethods": "Text, WhatsApp, email, Blind Sleeper offer",
-    "preferredContact": "Text",
-  },
   {
     "managerID": "463854522964373504",
     "name": "Nick Melhado",
